@@ -33,9 +33,9 @@ const questions = [
         name: "description",
       },
       {
-        type: "input",
-        message: "What are the steps required to install dependencies?",
-        name: "install",
+        type: 'input',
+        name: 'install',
+        message: 'What command should be run to install dependencies?'
       },
       {
         type: "list",

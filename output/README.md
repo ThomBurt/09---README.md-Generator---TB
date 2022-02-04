@@ -17,10 +17,10 @@
   - [Questions](#questions)
 
   ## Installation
-  npm install
+  npm install, or shorten that to npm i
 
   ## Usage
-  follow all guidelines
+  not alot
 
 
   ## Contributing
