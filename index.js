@@ -35,13 +35,14 @@ const questions = [
       {
         type: "input",
         message: "What are the steps required to install dependencies?",
-        name: "installation",
+        name: "install",
       },
       {
         type: "list",
         message: "What license should your project include?",
         name: "license",
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+        choices: ['MIT', 'GNU', 'none'],
+        default: ['MIT']
       },
       {
         type: 'input',
@@ -50,7 +51,7 @@ const questions = [
       },
       {
         type: "input",
-        name: "contributor",
+        name: "contributors",
         message: "What are the contribution guidelines?"
       },
       {
