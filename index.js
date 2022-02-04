@@ -61,18 +61,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const writeFile = data => {
-  fs.writeFile('README.md', data, err => {
-      // if an error occurs
-      if (err) {
-          console.log(err);
-          return;
-      } else {
-          //when the README has been created
-          console.log("Success! Your README has been created!")
-      }
-  })
-};
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) =>
+    err ? console.log(err) : console.log("Success! Your README has been generated!")
+  );
+}
 
 
 
