@@ -3,6 +3,9 @@
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 
+<img>
+View the link to watch the walkthrough: 
+
 
 
 GIVEN a command-line application that accepts user input
