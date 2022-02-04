@@ -50,8 +50,8 @@ const questions = [
       },
       {
         type: "input",
-        message: "What are the contribution guidelines?",
         name: "contributor",
+        message: "What are the contribution guidelines?"
       },
       {
         type: 'input',
