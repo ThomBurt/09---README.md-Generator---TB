@@ -4,7 +4,7 @@ const renderLicenseBadge = licenseText => {
   }
 
   return `
-  ![License](https://img.shields.io/badge/License-${licenseText.split(' ').join('_')}-blue.svg)
+  ![License](https://img.shields.io/badge/License-${licenseText.split('').join('_')}-blue.svg)
   
   `;
 };
