@@ -1,12 +1,12 @@
 
 
-  ![GitHub License Badge](https://shields.io/badge/license-APACHE 2.0-green)
+  ![Github License](http://img.shields.io/badge/license-BSD 3-blue.svg)
 
 
-  # Professional Read Me
+  # README Generator
 
   ## Description
-  readmegenerator
+  Professional ReadMe generator which is generated through the command prompt
 
   ## Table of Contents
   - [Installation](#installation)
@@ -20,15 +20,16 @@
   undefined
 
   ## Usage
-  no
+  nothing
 
 
   ## Contributing
   undefined
 
   ## Tests
-  n
+  npm test
 
   ## Questions
+  Please do not hesitate to contact with any questions or concerns!
   GitHub: [thomburt](https://github.com/thomburt)
-  Email: <thomburt10@gmail.com>
+  Email: <thom@hotmail.com>
