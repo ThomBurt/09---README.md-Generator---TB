@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 
-  ![GitHub License Badge](https://shields.io/badge/license-${data.license}-green)
+  ![Github License](http://img.shields.io/badge/license-${data.license}-blue.svg)
 
 
   # ${data.title}
@@ -73,6 +73,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
+  Please do not hesitate to contact with any questions or concerns!
   GitHub: [${data.username}](https://github.com/${data.username})
   Email: <${data.email}>
 `;
